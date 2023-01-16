@@ -29,12 +29,12 @@ I_b(:,:,2) = 0;
 figure();
 imshow(I_b);
 %calcualting the average RGB values of the above image
-IRavg = uint8((sum(sum(I_r)))./((size(I_r,1)).*(size(I_r,2))));
-imshow(IRavg);
+Ir_avg = uint8((sum(sum(I_r)))./((size(I_r,1)).*(size(I_r,2))));
+imshow(Ir_avg);
 figure();
-IGavg = uint8((sum(sum(I_g)))./((size(I_g,1)).*(size(I_g,2))));
-imshow(IGavg);
+Ig_avg = uint8((sum(sum(I_g)))./((size(I_g,1)).*(size(I_g,2))));
+imshow(Ig_avg);
 figure();
-IBavg = uint8((sum(sum(I_b)))./((size(I_b,1)).*(size(I_b,2))));
-imshow(IBavg);
+Ib_avg = uint8((sum(sum(I_b)))./((size(I_b,1)).*(size(I_b,2))));
+imshow(Ib_avg);
 figure();
